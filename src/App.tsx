@@ -1,7 +1,7 @@
 import './App.css'
 import { useState } from "react";
 // @ts-ignore
-import { INITIAL_VALUE, ReactSVGPanZoom, zoomOnViewerCenter, reset } from "react-svg-pan-zoom";
+import { ReactSVGPanZoom, zoomOnViewerCenter, reset } from "react-svg-pan-zoom";
 import styled from "styled-components";
 import { FiMaximize } from "react-icons/fi";
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai";
