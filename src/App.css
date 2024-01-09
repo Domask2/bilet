@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+.overlays text {
+  font-family: "Helvetica, Arial, sans-serif", serif;
+  fill: #949DA5;
+  font-size: 16px;
+}
+.places rect {
+  fill: #CCCCCC; fill-rule: nonzero;
+}
+.places .booking {
+  fill: #E99999;
+}
+.places .sell {
+  fill: #AEAEAE;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.main {
+  flex: 1 1 auto;
+  position: relative;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.toolbarWrapper {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.toolbarBottom {
+  flex: 0 0 auto;
+  border-radius: 2px;
+  background: white;
+}
+
+.tool {
+  padding: 4px;
+  height: 30px;
+  width: 30px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  display: block;
+  color: gray;
 }
