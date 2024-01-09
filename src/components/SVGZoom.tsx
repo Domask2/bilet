@@ -1,6 +1,6 @@
 // @ts-nocheck
 import { useEffect, useState } from "react";
-import { ReactSVGPanZoom, reset, zoomOnViewerCenter } from "react-svg-pan-zoom";
+import { ReactSVGPanZoom, zoomOnViewerCenter } from "react-svg-pan-zoom";
 import { useWindowDimensions } from "../hook/useWindowDimensions";
 import { initValue, littleValue, middleValue } from "../service/value";
 import CustomToolbar from "./CustomToolbar";
