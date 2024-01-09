@@ -51,8 +51,8 @@ const SVGZoom = () => {
           handleReset={handleReset}
         />
       )}
+      className='svgZoom'
       background={'white'}
-      style={{margin: '26px auto', border: '1px solid #d3d3d3', cursor: 'pointer'}}
       scaleFactorMax={4}
       scaleFactorMin={-2}
       disableDoubleClickZoomWithToolAuto={true}
